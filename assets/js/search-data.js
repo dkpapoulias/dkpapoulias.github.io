@@ -518,14 +518,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%64%69%6D%69%74%72%69%6F%73 %64%6F%74 %70%61%70%6F%75%6C%69%61%73 %61%74 %75%6E%69-%68%61%6D%62%75%72%67 %64%6F%74 %64%65", "_blank");
         },
       },{
         id: 'social-inspire',
         title: 'Inspire HEP',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://inspirehep.net/authors/1227978", "_blank");
         },
       },{
         id: 'social-rss',
