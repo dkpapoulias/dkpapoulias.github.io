@@ -25,4 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an a theoretical astroparticle physicist, working asM a Marie Skłodowska Curie Fellow at University of Hamburg. My main research area concerns the interdisciplinary phenomena and the interplay between nuclear physics, astroparticle physics, devoting special effort to the accurate treatment of important corrections imposed by nuclear theory. Recently, I started research into the wider aspects of neutrino physics with a goal to probe exotic interactions of neutrinos with matter, Dark Matter and axion-like particles (ALPs), taking into account laboratory experiments as well as cosmological observations.
+I am an a theoretical astroparticle physicist, working as a Marie Skłodowska Curie Fellow at University of Hamburg. 
+
+My main research area concerns the interdisciplinary phenomena and the interplay between nuclear physics, astroparticle physics, devoting special effort to the accurate treatment of important corrections imposed by nuclear theory. Recently, I started research into the wider aspects of neutrino physics with a goal to probe exotic interactions of neutrinos with matter, Dark Matter and axion-like particles (ALPs), taking into account laboratory experiments as well as cosmological observations.
