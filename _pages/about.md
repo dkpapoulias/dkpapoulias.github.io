@@ -3,10 +3,7 @@ layout: about
 title: about
 permalink: /
 
-<subtitle>
-  <a href="https://www.physik.uni-hamburg.de/iexp/gruppe-nikolopoulos/personen/papoulias-dimitrios.html">
-    Institute of Experimental Physics, University of Hamburg, Germany
-  </a>
+subtitle: "<a href=\"https://www.physik.uni-hamburg.de/iexp/gruppe-nikolopoulos/personen/papoulias-dimitrios.html\">Institute of Experimental Physics, University of Hamburg, Germany</a>"
 
 profile:
   align: right
