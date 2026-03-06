@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.physik.uni-hamburg.de/iexp/gruppe-nikolopoulos/personen/papoulias-dimitrios.html'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.physik.uni-hamburg.de/iexp/gruppe-nikolopoulos/personen/papoulias-dimitrios.html'>Affiliation</a>. Institute of Experimental Physics, University of Hamburg, Germany
 
 profile:
   align: right
@@ -11,8 +11,8 @@ profile:
   more_info: >
     <p> University of Hamburg, Germany</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
 
 announcements:
   enabled: true # includes a list of news items
