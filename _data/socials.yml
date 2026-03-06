@@ -4,8 +4,11 @@
 cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 email: dimitrios dot papoulias at uni-hamburg dot de # your email address
 inspirehep_id: 1227978 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+#rss_icon: true # comment this line to hide the RSS icon
+scholar_userid: e0GGlSkAAAAJ&hl # your Google Scholar ID
+research_gate_profile: Dimitrios-Papoulias-2 # your profile on ResearchGate
+x_username: dk_papoulias # your X handle
+linkedin_username: dimitris-papoulias-584650143 # your LinkedIn user name
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
