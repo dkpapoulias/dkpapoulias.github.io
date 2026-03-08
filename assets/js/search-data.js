@@ -412,10 +412,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-the-msca-neutrinosphere-project-started-today",
+            },},{id: "news-the-msca-neutrinosphere-project-started-today",
           title: 'The MSCA neutrinoSPHERE project started today! 🎉🚀🔬',
           description: "",
           section: "News",},{id: "news-new-papers-are-posted-on-arxiv-1-axial-vector-neutral-current-measurements-in-coherent-elastic-neutrino-nucleus-scattering-experiments-authors-d-aristizabal-sierra-pablo-m-candela-valentina-de-romeri-dimitrios-k-papoulias-laura-trincado-s-arxiv-2603-05281-2-testing-light-and-heavy-vector-mediators-with-solar-ceνns-measurements-authors-valentina-de-romeri-dimitrios-k-papoulias-federica-pompa-gonzalo-sanchez-garcia-christoph-a-ternes-arxiv-2603-00554-3-sensitivity-to-sub-gev-dark-matter-in-forthcoming-spallation-source-neutrino-experiments-authors-d-aristizabal-sierra-valentina-de-romeri-dimitrios-k-papoulias-g-sanchez-garcía-arxiv-2603-02132",
