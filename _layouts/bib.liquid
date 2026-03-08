@@ -18,6 +18,7 @@
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
+
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -38,6 +39,7 @@
   {% endif %}
 
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
 
@@ -45,20 +47,27 @@
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
       {% assign author_array_limit = site.max_author_limit | default: author_array_size %}
+
       {% for author in entry.author_array limit: author_array_limit %}
         {% assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}
+
         {% if site.scholar.last_name contains author.last and site.scholar.first_name contains author.first %}
           <em>{{ author.first }} {{ author_last_html }}</em>
         {% else %}
           {{ author.first }} {{ author_last_html }}
         {% endif %}
+
         {% if forloop.last == false %}
           {% if forloop.length > 2 %}, {% elsif forloop.length == 2 %} {% endif %}
         {% endif %}
       {% endfor %}
+
       {% assign more_authors = author_array_size | minus: author_array_limit %}
+
       {% if more_authors > 0 %}
-        , and <span class="more-authors" title="{{ more_authors }} more authors" onclick="
+        , and <span class="more-authors"
+          title="{{ more_authors }} more authors"
+          onclick="
             var element = $(this);
             element.attr('title','');
             var more_authors_text = '';
@@ -71,22 +80,23 @@
         </span>
       {% endif %}
 
-      <!-- Abstract popover -->
+      <!-- Abstract button -->
       {% if entry.abstract %}
-        <span class="badge badge-info ml-1 abstract-badge"
+        <span class="badge bg-info text-dark ms-2"
               style="cursor:pointer;"
-              data-toggle="popover"
-              data-placement="top"
-              data-html="true"
-              data-content="{{ entry.abstract | escape }}">
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-html="true"
+              data-bs-content="{{ entry.abstract | escape }}">
           Abstract
         </span>
       {% endif %}
     </div>
 
-    <!-- Journal/Conference/Book info -->
+    <!-- Journal / Conference -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
@@ -96,33 +106,50 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype != "" %}, {% endif %}Vol. {{ entry.volume }}{% if entry.number %}({{ entry.number }}){% endif %}, pp. {{ entry.pages }}, {{ entry.year }}{% endcapture %}
+
+    {% capture periodical %}
+      {{ entrytype }}
+      {% if entry.volume %}, Vol. {{ entry.volume }}{% endif %}
+      {% if entry.number %}({{ entry.number }}){% endif %}
+      {% if entry.pages %}, pp. {{ entry.pages }}{% endif %}
+      {% if entry.year %}, {{ entry.year }}{% endif %}
+    {% endcapture %}
+
     <div class="periodical">{{ periodical }}</div>
 
-    <!-- Links -->
+    <!-- Links (ONE LINE) -->
     <div class="links">
-      {% if entry.doi %}<a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0">DOI</a>{% endif %}
-      {% if entry.arxiv %}<a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0">arXiv</a>{% endif %}
-      {% if entry.pdf %}<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0">PDF</a>{% endif %}
+
+      {% if entry.doi %}
+        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0">DOI</a>
+      {% endif %}
+
+      {% if entry.arxiv %}
+        <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0">arXiv</a>
+      {% endif %}
+
+      {% if entry.pdf %}
+        <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0">PDF</a>
+      {% endif %}
+
+      {% if site.enable_publication_badges.inspirehep and entry.inspirehep_id %}
+        <span class="ms-2">
+          <img
+            src="https://img.shields.io/badge/inspire-{% inspirehep_citations entry.inspirehep_id %}-001628?logo=inspire&logoColor=001628&labelColor=beige"
+            alt="{% inspirehep_citations entry.inspirehep_id %} InspireHEP citations">
+        </span>
+      {% endif %}
+
     </div>
 
-    <!-- Badges -->
-    {% if site.enable_publication_badges and entry.inspirehep_id %}
-      <div class="badges">
-        {% if site.enable_publication_badges.inspirehep %}
-          <span>
-            <img src="https://img.shields.io/badge/inspire-{% inspirehep_citations entry.inspirehep_id %}-001628?logo=inspire&logoColor=001628&labelColor=beige"
-                 alt="{% inspirehep_citations entry.inspirehep_id %} InspireHEP citations">
-          </span>
-        {% endif %}
-      </div>
-    {% endif %}
   </div>
 </div>
 
-<!-- Initialize popovers -->
 <script>
-  $(function () {
-    $('[data-toggle="popover"]').popover();
+document.addEventListener("DOMContentLoaded", function () {
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+  popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl);
   });
+});
 </script>
