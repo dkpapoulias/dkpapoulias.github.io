@@ -421,9 +421,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-papers-are-posted-on-arxiv-1-axial-vector-neutral-current-measurements-in-coherent-elastic-neutrino-nucleus-scattering-experiments-authors-d-aristizabal-sierra-pablo-m-candela-valentina-de-romeri-dimitrios-k-papoulias-laura-trincado-s-arxiv-2603-05281-2-testing-light-and-heavy-vector-mediators-with-solar-ceνns-measurements-authors-valentina-de-romeri-dimitrios-k-papoulias-federica-pompa-gonzalo-sanchez-garcia-christoph-a-ternes-arxiv-2603-00554-3-sensitivity-to-sub-gev-dark-matter-in-forthcoming-spallation-source-neutrino-experiments-authors-d-aristizabal-sierra-valentina-de-romeri-dimitrios-k-papoulias-g-sanchez-garcía-arxiv-2603-02132",
           title: 'New papers are posted on arXiv: 1. Axial-vector neutral-current measurements in coherent elastic...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-neutrinosphere",
+          title: 'neutrinoSPHERE',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
