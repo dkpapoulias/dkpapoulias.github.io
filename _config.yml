@@ -30,6 +30,7 @@ back_to_top: true
 
 repo_theme_light: default
 repo_theme_dark: dark
+
 repo_trophies:
   enabled: true
   theme_light: flat
@@ -38,10 +39,6 @@ repo_trophies:
 external_services:
   github_readme_stats_url: https://github-readme-stats.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
-
-# -----------------------------------------------------------------------------
-# RSS Feed
-# -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -80,6 +77,10 @@ related_blog_posts:
   enabled: true
   max_related: 5
 
+# -----------------------------------------------------------------------------
+# Comments
+# -----------------------------------------------------------------------------
+
 giscus:
   repo: ""
   repo_id: ""
@@ -96,11 +97,16 @@ giscus:
 
 disqus_shortname: al-folio
 
+# -----------------------------------------------------------------------------
+# External posts
+# -----------------------------------------------------------------------------
+
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
     categories: [external-posts]
     tags: [medium]
+
   - name: Google Blog
     posts:
       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
@@ -108,9 +114,17 @@ external_sources:
     categories: [external-posts]
     tags: [google]
 
+# -----------------------------------------------------------------------------
+# Newsletter
+# -----------------------------------------------------------------------------
+
 newsletter:
   enabled: false
   endpoint: ""
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
 
 collections:
   books:
@@ -124,19 +138,31 @@ collections:
   teachings:
     output: true
 
+# -----------------------------------------------------------------------------
+# Markdown
+# -----------------------------------------------------------------------------
+
 markdown: kramdown
 highlighter: rouge
+
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    css_class: "highlight"
+    css_class: highlight
     span:
       line_numbers: false
     block:
       line_numbers: false
       start_line: 1
 
-include: ["_pages", "_scripts"]
+# -----------------------------------------------------------------------------
+# Files
+# -----------------------------------------------------------------------------
+
+include:
+  - _pages
+  - _scripts
+
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -152,14 +178,18 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
   - vendor
+
 keep_files:
   - CNAME
   - .nojekyll
+
+# -----------------------------------------------------------------------------
+# Plugins
+# -----------------------------------------------------------------------------
 
 plugins:
   - jekyll-3rd-party-libraries
@@ -183,22 +213,30 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-defaults:
-  - scope:
-      path: "assets"
-    values:
-      sitemap: false
+# -----------------------------------------------------------------------------
+# Sass
+# -----------------------------------------------------------------------------
 
 sass:
   style: compressed
 
+# -----------------------------------------------------------------------------
+# Minifier
+# -----------------------------------------------------------------------------
+
 jekyll-minifier:
   compress_javascript: false
-  exclude: ["robots.txt", "assets/js/search/*.js"]
+  exclude:
+    - robots.txt
+    - assets/js/search/*.js
 
 terser:
   compress:
     drop_console: true
+
+# -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
 
 jekyll-archives:
   posts:
@@ -210,8 +248,20 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories]
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"]
-display_categories: ["external-services"]
+display_tags:
+  - formatting
+  - images
+  - links
+  - math
+  - code
+  - blockquotes
+
+display_categories:
+  - external-services
+
+# -----------------------------------------------------------------------------
+# Jekyll Scholar (publications)
+# -----------------------------------------------------------------------------
 
 scholar:
   last_name: [Einstein]
@@ -221,7 +271,10 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
-  bibtex_filters: [latex, smallcaps, superscript]
+  bibtex_filters:
+    - latex
+    - smallcaps
+    - superscript
   replace_strings: true
   join_strings: true
   details_dir: bibliography
@@ -268,11 +321,19 @@ max_author_limit: 3
 more_authors_animation_delay: 10
 enable_publication_thumbnails: true
 
+# -----------------------------------------------------------------------------
+# External links
+# -----------------------------------------------------------------------------
+
 external_links:
   enabled: true
   rel: external nofollow noopener
   target: _blank
   exclude: []
+
+# -----------------------------------------------------------------------------
+# Images
+# -----------------------------------------------------------------------------
 
 imagemagick:
   enabled: true
@@ -290,6 +351,10 @@ imagemagick:
     - ".gif"
   output_formats:
     webp: "-auto-orient -quality 85"
+
+# -----------------------------------------------------------------------------
+# Features
+# -----------------------------------------------------------------------------
 
 lazy_loading_images: true
 enable_google_analytics: false
@@ -309,6 +374,10 @@ enable_medium_zoom: true
 enable_progressbar: true
 enable_video_embedding: false
 
+# -----------------------------------------------------------------------------
+# Resume
+# -----------------------------------------------------------------------------
+
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json
@@ -326,3 +395,33 @@ jsonresume:
   - languages
   - interests
   - references
+
+# -----------------------------------------------------------------------------
+# Third party libraries
+# -----------------------------------------------------------------------------
+
+third_party_libraries:
+
+  jquery:
+    url:
+      cdnjs: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
+
+  bootstrap:
+    url:
+      cdnjs: https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/js/bootstrap.bundle.min.js
+
+  masonry:
+    url:
+      cdnjs: https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js
+
+  imagesloaded:
+    url:
+      cdnjs: https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js
+
+  medium_zoom:
+    url:
+      cdnjs: https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js
+
+  mathjax:
+    url:
+      cdnjs: https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
