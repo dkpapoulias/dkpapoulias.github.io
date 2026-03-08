@@ -42,29 +42,38 @@ cv:
 
 
     Experience:
+
+        - company: University of Hamburg
+        position: Postdoc Researcher | MSCA Fellow
+        location: Hamburg, Germany
+        start_date: 2026
+        end_date: 2028
+        highlights:
+          - neutrinoSPHERE EU-project (Collab. with Prof. Nikolopoulos)
+          
       - company: Instituto de Física Corpuscular (CSIC/Valencia U.)
         position: Postdoc Researcher
         location: Valencia, Spain
         start_date: 2024
         end_date: 2026
         highlights:
-          - AHEP Group (Collaboration with Dr. V. De Romeri)
+          - AHEP Group (Collab. with Dr. V. De Romeri in her NeoCEvNS EU project)
 
       - company: National and Kapodistrian University of Athens 
-        position: Postdoc Researcher 
+        position: Postdoc Researcher | H.F.R.I. (PI)
         location: Athens, Greece
         start_date: 2022
         end_date: 2024
         highlights:
-          - PI of H.F.R.I. funded project (Collaboration with Prof. N. Saoulidou)
+          - DUNE-apps project (Collab. with Prof. N. Saoulidou)
 
-      - company: University of Ioannina 
-        position: Postdoc Researcher (IKY Fellow)
+      - company: University of Ioannina
+        position: Postdoc Researcher | IKY Fellow
         location: Ioannina, Greece
         start_date: 2020
         end_date: 2022
         highlights:
-          - IKY Fellowship (Collaboration with Prof. G. Leontaris)
+          - IKY individual Fellowship (Collab. with Prof. G. Leontaris)
 
       - company: AHEP Group, Instituto de Física Corpuscular (CSIC/Valencia U.)
         position: Postdoc Researcher
@@ -72,7 +81,7 @@ cv:
         start_date: 2018
         end_date: 2020
         highlights:
-          - AHEP Group (Collaboration with Prof. M. Tórtola, Prof. Jose W.F. Valle)
+          - AHEP Group (Collab. with Prof. M. Tórtola, Prof. Jose W.F. Valle, PROMETEO project)
 
 
 
