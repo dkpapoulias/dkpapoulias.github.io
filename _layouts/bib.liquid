@@ -73,12 +73,14 @@
 
       <!-- Abstract popover -->
       {% if entry.abstract %}
-        <i class="fa-solid fa-circle-info ml-1"
-           data-toggle="popover"
-           data-placement="top"
-           data-html="true"
-           data-content="{{ entry.abstract | escape }}">
-        </i>
+        <span class="badge badge-info ml-1 abstract-badge"
+              style="cursor:pointer;"
+              data-toggle="popover"
+              data-placement="top"
+              data-html="true"
+              data-content="{{ entry.abstract | escape }}">
+          Abstract
+        </span>
       {% endif %}
     </div>
 
