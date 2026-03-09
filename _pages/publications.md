@@ -25,4 +25,3 @@ For a full list of publications, see my [INSPIRE-HEP profile](https://inspirehep
 <div class="publications">
   {% bibliography --selected --style unsrt %}
 </div>
-
