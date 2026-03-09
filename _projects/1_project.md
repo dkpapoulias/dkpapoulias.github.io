@@ -66,7 +66,7 @@ The project has a duration of 24 months and includes research visits at IFT Madr
 <!--  ADD PUBLICATIONS HERE --->
 
 
-### <i class="fa-solid fa-book-open" style="color:#2b6cb0;"></i> Publications
+### 📘 Publications
 
 <div class="row mt-3">
 
@@ -142,7 +142,7 @@ arXiv:2603.02132
 
 <div style="margin-top:2.5rem;"></div>
 
-### <i class="fa-solid fa-microphone-lines" style="color:#e67e22;"></i> Talks
+### 👨‍🏫 Talks
 
 <div class="list-group list-group-flush mt-3">
 
@@ -163,7 +163,7 @@ coming soon...
 
 <div style="margin-top:2.5rem;"></div>
 
-### <i class="fa-solid fa-earth-europe fa-lg" style="color:#2b6cb0; margin-right:6px;"></i> Outreach
+### 🌍 Outreach
 <div class="list-group list-group-flush mt-3">
 
 <div class="list-group-item">
