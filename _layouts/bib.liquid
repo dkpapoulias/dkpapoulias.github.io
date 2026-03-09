@@ -25,19 +25,20 @@
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {% include figure.liquid
-            loading="eager"
-            path=entry_path
-            sizes="200px"
-            class="preview z-depth-1 rounded"
-            zoomable=true
-            avoid_scaling=true
-            alt=entry.preview %}
+              loading="eager"
+              path=entry_path
+              sizes="200px"
+              class="preview z-depth-1 rounded"
+              zoomable=true
+              avoid_scaling=true
+              alt=entry.preview %}
         {% endif %}
       {% endif %}
     </div>
   {% endif %}
 
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
 
@@ -45,6 +46,7 @@
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
       {% assign author_array_limit = site.max_author_limit | default: author_array_size %}
+
       {% for author in entry.author_array limit: author_array_limit %}
         {% assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}
         {% if site.scholar.last_name contains author.last and site.scholar.first_name contains author.first %}
@@ -61,22 +63,22 @@
       {% if more_authors > 0 %}
         , and
         <span class="more-authors"
-              title="{{ more_authors }} more authors"
-              onclick="
-                var element = $(this);
-                element.attr('title','');
-                var more_authors_text = '';
-                {% for author in entry.author_array offset: author_array_limit %}
-                  more_authors_text += '{{ author.first }} {{ author.last }}{% unless forloop.last %}, {% endunless %}';
-                {% endfor %}
-                element.html(more_authors_text);
-              ">
+          title="{{ more_authors }} more authors"
+          onclick="
+            var element = $(this);
+            element.attr('title','');
+            var more_authors_text = '';
+            {% for author in entry.author_array offset: author_array_limit %}
+              more_authors_text += '{{ author.first }} {{ author.last }}{% unless forloop.last %}, {% endunless %}';
+            {% endfor %}
+            element.html(more_authors_text);
+          ">
           {{ more_authors }} more authors
         </span>
       {% endif %}
     </div>
 
-    <!-- Journal / Conference / Book info -->
+    <!-- Journal/Conference/Book info -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
@@ -98,18 +100,16 @@
     {% endcapture %}
     <div class="periodical">{{ periodical }}</div>
 
-    <!-- Links / Buttons all in one line -->
+    <!-- Links line: Abstract, DOI, arXiv, InspireHEP -->
     <div class="links">
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0"
-           tabindex="0"
            role="button"
            data-bs-toggle="popover"
-           data-bs-trigger="focus"
            data-bs-html="true"
-           data-bs-title="Abstract"
-           data-bs-content="{{ entry.abstract | escape }}">
-          Abstract
+           data-bs-trigger="click"
+           data-bs-content="{{ entry.abstract | escape | strip_newlines }}">
+           Abstract
         </a>
       {% endif %}
 
@@ -123,10 +123,6 @@
         <a href="https://arxiv.org/abs/{{ entry.eprint }}" class="btn btn-sm z-depth-0">arXiv</a>
       {% endif %}
 
-      {% if entry.pdf %}
-        <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0">PDF</a>
-      {% endif %}
-
       {% if site.enable_publication_badges.inspirehep and entry.inspirehep_id %}
         <a href="https://inspirehep.net/literature/{{ entry.inspirehep_id }}" target="_blank">
           <img src="https://img.shields.io/badge/inspire-{% inspirehep_citations entry.inspirehep_id %}-001628?logo=inspire&logoColor=001628&labelColor=beige"
@@ -134,12 +130,13 @@
         </a>
       {% endif %}
     </div>
+
   </div>
 </div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
   popoverTriggerList.forEach(function (popoverTriggerEl) {
     new bootstrap.Popover(popoverTriggerEl);
   });
