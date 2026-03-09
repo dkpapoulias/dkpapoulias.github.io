@@ -142,7 +142,7 @@ arXiv:2603.02132
 
 <div style="margin-top:2.5rem;"></div>
 
-### 👨‍🏫 Talks
+### 🎤 Talks
 
 <div class="list-group list-group-flush mt-3">
 
