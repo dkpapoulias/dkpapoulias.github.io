@@ -373,20 +373,6 @@
   <script src="{{ '/assets/js/shortcut-key.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
-  popoverTriggerList.forEach(function (popoverTriggerEl) {
-    new bootstrap.Popover(popoverTriggerEl, {
-      trigger: 'click',
-      html: true,
-      sanitize: false
-    });
-  });
-});
-</script>
-
 {% if site.newsletter.enabled %}
   <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
