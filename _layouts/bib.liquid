@@ -182,11 +182,13 @@
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
+      {% if entry.volume %} <b>{{ entry.volume }}</b>{% endif %}
+      {% if entry.number %} ({{ entry.number }}){% endif %}
+      {% if entry.pages %}, {{ entry.pages }}{% endif %}
     </div>
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
-
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
