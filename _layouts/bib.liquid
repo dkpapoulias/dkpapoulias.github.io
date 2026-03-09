@@ -107,7 +107,7 @@
            role="button"
            data-bs-toggle="popover"
            data-bs-html="true"
-           data-bs-trigger="click"
+           data-bs-trigger="focus"
            data-bs-content="{{ entry.abstract | escape | strip_newlines }}">
            Abstract
         </a>
@@ -138,7 +138,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
   popoverTriggerList.forEach(function (popoverTriggerEl) {
-    new bootstrap.Popover(popoverTriggerEl);
+    new bootstrap.Popover(popoverTriggerEl, {
+      html: true,
+      sanitize: false,
+      trigger: 'focus',
+      placement: 'top'
+    });
   });
 });
 </script>
