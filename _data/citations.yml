@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-23'
+  last_updated: '2026-04-10'
 papers:
   e0GGlSkAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: Probing neutrino magnetic moments at the Spallation Neutron Source facility
     year: '2015'
   e0GGlSkAAAAJ:9ZlFYXVOiuMC:
-    citations: 55
+    citations: 56
     title: Axionlike particles searches in reactor experiments
     year: '2021'
   e0GGlSkAAAAJ:KlAtU1dfN6UC:
@@ -62,7 +62,7 @@ papers:
     title: XENON1T signal from transition neutrino magnetic moments
     year: '2020'
   e0GGlSkAAAAJ:Y0pCki6q_DkC:
-    citations: 108
+    citations: 109
     title: Probing light sterile neutrino signatures at reactor and Spallation Neutron Source neutrino experiments
     year: '2017'
   e0GGlSkAAAAJ:YOwf2qJgpHMC:
