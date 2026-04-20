@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-10'
+  last_updated: '2026-04-20'
 papers:
   e0GGlSkAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -26,7 +26,7 @@ papers:
     title: Axionlike particles searches in reactor experiments
     year: '2021'
   e0GGlSkAAAAJ:KlAtU1dfN6UC:
-    citations: 110
+    citations: 109
     title: Probing neutrino transition magnetic moments with coherent elastic neutrino-nucleus scattering
     year: '2019'
   e0GGlSkAAAAJ:LkGwnXOMwfcC:
@@ -46,7 +46,7 @@ papers:
     title: "Novel Neutrino\u2010Floor and Dark Matter Searches with Deformed Shell Model Calculations"
     year: '2018'
   e0GGlSkAAAAJ:UebtZRa9Y70C:
-    citations: 42
+    citations: 43
     title: Sensitivities to neutrino electromagnetic properties at the TEXONO experiment
     year: '2015'
   e0GGlSkAAAAJ:W7OEmFMy1HYC:
