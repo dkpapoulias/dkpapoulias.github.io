@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-22'
+  last_updated: '2026-06-08'
 papers:
   e0GGlSkAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,19 +10,19 @@ papers:
     title: "Neutrino transition magnetic moments within the non-standard neutrino\u2013nucleus interactions"
     year: '2015'
   e0GGlSkAAAAJ:4TOpqqG69KYC:
-    citations: 34
+    citations: 35
     title: Probing new neutral gauge bosons with  and neutrino-electron scattering
     year: '2020'
   e0GGlSkAAAAJ:5nxA0vEk-isC:
-    citations: 189
+    citations: 190
     title: COHERENT constraints to conventional and exotic neutrino physics
     year: '2018'
   e0GGlSkAAAAJ:8k81kl-MbHgC:
-    citations: 84
+    citations: 85
     title: Probing neutrino magnetic moments at the Spallation Neutron Source facility
     year: '2015'
   e0GGlSkAAAAJ:9ZlFYXVOiuMC:
-    citations: 56
+    citations: 57
     title: Axionlike particles searches in reactor experiments
     year: '2021'
   e0GGlSkAAAAJ:KlAtU1dfN6UC:
@@ -34,7 +34,7 @@ papers:
     title: Exotic lepton flavour violating processes in the field of nucleus
     year: '2016'
   e0GGlSkAAAAJ:M3ejUd6NZC8C:
-    citations: 118
+    citations: 122
     title: Implications of the first detection of coherent elastic neutrino-nucleus scattering (CEvNS) with Liquid Argon
     year: '2020'
   e0GGlSkAAAAJ:MXK_kJrjxJIC:
@@ -42,15 +42,15 @@ papers:
     title: Probing electromagnetic neutrino properties within the tensor non-standard neutrino-nucleus interactions
     year: '2015'
   e0GGlSkAAAAJ:Se3iqnhoufwC:
-    citations: 68
+    citations: 69
     title: "Novel Neutrino\u2010Floor and Dark Matter Searches with Deformed Shell Model Calculations"
     year: '2018'
   e0GGlSkAAAAJ:UebtZRa9Y70C:
-    citations: 43
+    citations: 44
     title: Sensitivities to neutrino electromagnetic properties at the TEXONO experiment
     year: '2015'
   e0GGlSkAAAAJ:W7OEmFMy1HYC:
-    citations: 43
+    citations: 44
     title: "Nuclear aspects of neutral current non-standard \u03BD-nucleus reactions and the role of the exotic \u03BC\u2212\u2192 e\u2212 transitions experimental limits"
     year: '2014'
   e0GGlSkAAAAJ:WF5omc3nYNoC:
@@ -82,7 +82,7 @@ papers:
     title: "Impact of Nonstandard Interactions on Neutrino\u2010Nucleon Scattering"
     year: '2016'
   e0GGlSkAAAAJ:_kc_bZDykSQC:
-    citations: 75
+    citations: 77
     title: Recent probes of standard and non-standard neutrino physics with nuclei
     year: '2019'
   e0GGlSkAAAAJ:aqlVkmm33-oC:
@@ -90,7 +90,7 @@ papers:
     title: Light vector mediators facing XENON1T data
     year: '2020'
   e0GGlSkAAAAJ:eQOLeE2rZwMC:
-    citations: 71
+    citations: 72
     title: "Standard and Nonstandard Neutrino\u2010Nucleus Reactions Cross Sections and Event Rates to Neutrino Detection Experiments"
     year: '2015'
   e0GGlSkAAAAJ:hqOjcs7Dif8C:
@@ -106,7 +106,7 @@ papers:
     title: Elastic and inelastic scattering of neutrinos and weakly interacting massive particles on nuclei
     year: '2020'
   e0GGlSkAAAAJ:roLk4NBRz8UC:
-    citations: 17
+    citations: 18
     title: Exotic lepton flavour violating processes in the presence of nuclei
     year: '2013'
   e0GGlSkAAAAJ:ufrVoPGSRksC:
