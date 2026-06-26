@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-06-26'
 papers:
   e0GGlSkAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: Probing new neutral gauge bosons with  and neutrino-electron scattering
     year: '2020'
   e0GGlSkAAAAJ:5nxA0vEk-isC:
-    citations: 190
+    citations: 191
     title: COHERENT constraints to conventional and exotic neutrino physics
     year: '2018'
   e0GGlSkAAAAJ:8k81kl-MbHgC:
@@ -22,11 +22,11 @@ papers:
     title: Probing neutrino magnetic moments at the Spallation Neutron Source facility
     year: '2015'
   e0GGlSkAAAAJ:9ZlFYXVOiuMC:
-    citations: 57
+    citations: 58
     title: Axionlike particles searches in reactor experiments
     year: '2021'
   e0GGlSkAAAAJ:KlAtU1dfN6UC:
-    citations: 111
+    citations: 112
     title: Probing neutrino transition magnetic moments with coherent elastic neutrino-nucleus scattering
     year: '2019'
   e0GGlSkAAAAJ:LkGwnXOMwfcC:
@@ -42,7 +42,7 @@ papers:
     title: Probing electromagnetic neutrino properties within the tensor non-standard neutrino-nucleus interactions
     year: '2015'
   e0GGlSkAAAAJ:Se3iqnhoufwC:
-    citations: 69
+    citations: 71
     title: "Novel Neutrino\u2010Floor and Dark Matter Searches with Deformed Shell Model Calculations"
     year: '2018'
   e0GGlSkAAAAJ:UebtZRa9Y70C:
@@ -82,7 +82,7 @@ papers:
     title: "Impact of Nonstandard Interactions on Neutrino\u2010Nucleon Scattering"
     year: '2016'
   e0GGlSkAAAAJ:_kc_bZDykSQC:
-    citations: 77
+    citations: 78
     title: Recent probes of standard and non-standard neutrino physics with nuclei
     year: '2019'
   e0GGlSkAAAAJ:aqlVkmm33-oC:
@@ -90,7 +90,7 @@ papers:
     title: Light vector mediators facing XENON1T data
     year: '2020'
   e0GGlSkAAAAJ:eQOLeE2rZwMC:
-    citations: 72
+    citations: 73
     title: "Standard and Nonstandard Neutrino\u2010Nucleus Reactions Cross Sections and Event Rates to Neutrino Detection Experiments"
     year: '2015'
   e0GGlSkAAAAJ:hqOjcs7Dif8C:
@@ -102,7 +102,7 @@ papers:
     title: Low scale string theory benchmarks for hidden photon dark matter interpretations of the XENON1T anomaly
     year: '2021'
   e0GGlSkAAAAJ:qxL8FJ1GzNcC:
-    citations: 19
+    citations: 20
     title: Elastic and inelastic scattering of neutrinos and weakly interacting massive particles on nuclei
     year: '2020'
   e0GGlSkAAAAJ:roLk4NBRz8UC:
