@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-24'
+  last_updated: '2026-08-10'
 papers:
   e0GGlSkAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: Standard and Nonstandard Neutrino-Nucleus Reactions Cross Sections and Event Rates to Neutrino Detection Experiments
     year: '2015'
   e0GGlSkAAAAJ:3fE2CSJIrl8C:
-    citations: 30
+    citations: 29
     title: "Neutrino transition magnetic moments within the non-standard neutrino\u2013nucleus interactions"
     year: '2015'
   e0GGlSkAAAAJ:4TOpqqG69KYC:
@@ -14,11 +14,11 @@ papers:
     title: Probing new neutral gauge bosons with  and neutrino-electron scattering
     year: '2020'
   e0GGlSkAAAAJ:5nxA0vEk-isC:
-    citations: 192
+    citations: 196
     title: COHERENT constraints to conventional and exotic neutrino physics
     year: '2018'
   e0GGlSkAAAAJ:8k81kl-MbHgC:
-    citations: 85
+    citations: 86
     title: Probing neutrino magnetic moments at the Spallation Neutron Source facility
     year: '2015'
   e0GGlSkAAAAJ:9ZlFYXVOiuMC:
@@ -50,19 +50,19 @@ papers:
     title: Sensitivities to neutrino electromagnetic properties at the TEXONO experiment
     year: '2015'
   e0GGlSkAAAAJ:W7OEmFMy1HYC:
-    citations: 44
+    citations: 42
     title: "Nuclear aspects of neutral current non-standard \u03BD-nucleus reactions and the role of the exotic \u03BC\u2212\u2192 e\u2212 transitions experimental limits"
     year: '2014'
   e0GGlSkAAAAJ:WF5omc3nYNoC:
-    citations: 97
+    citations: 99
     title: Constraining nuclear physics parameters with current and future COHERENT data
     year: '2020'
   e0GGlSkAAAAJ:Wp0gIr-vW9MC:
-    citations: 57
+    citations: 56
     title: XENON1T signal from transition neutrino magnetic moments
     year: '2020'
   e0GGlSkAAAAJ:Y0pCki6q_DkC:
-    citations: 113
+    citations: 117
     title: Probing light sterile neutrino signatures at reactor and Spallation Neutron Source neutrino experiments
     year: '2017'
   e0GGlSkAAAAJ:YOwf2qJgpHMC:
@@ -74,23 +74,23 @@ papers:
     title: Constraining new physics from the first observation of coherent elastic neutrino-nucleus scattering
     year: '2018'
   e0GGlSkAAAAJ:Zph67rFs4hoC:
-    citations: 49
+    citations: 48
     title: COHERENT constraints after the COHERENT-2020 quenching factor measurement
     year: '2020'
   e0GGlSkAAAAJ:_FxGoFyzp5QC:
-    citations: 3
+    citations: 15
     title: "Impact of Nonstandard Interactions on Neutrino\u2010Nucleon Scattering"
     year: '2016'
   e0GGlSkAAAAJ:_kc_bZDykSQC:
-    citations: 78
+    citations: 77
     title: Recent probes of standard and non-standard neutrino physics with nuclei
     year: '2019'
   e0GGlSkAAAAJ:aqlVkmm33-oC:
-    citations: 64
+    citations: 63
     title: Light vector mediators facing XENON1T data
     year: '2020'
   e0GGlSkAAAAJ:eQOLeE2rZwMC:
-    citations: 73
+    citations: 74
     title: "Standard and Nonstandard Neutrino\u2010Nucleus Reactions Cross Sections and Event Rates to Neutrino Detection Experiments"
     year: '2015'
   e0GGlSkAAAAJ:hqOjcs7Dif8C:
@@ -98,15 +98,15 @@ papers:
     title: Nuclear study of the exotic neutrino interactions
     year: '2014'
   e0GGlSkAAAAJ:mVmsd5A6BfQC:
-    citations: 11
+    citations: 10
     title: Low scale string theory benchmarks for hidden photon dark matter interpretations of the XENON1T anomaly
     year: '2021'
   e0GGlSkAAAAJ:qxL8FJ1GzNcC:
-    citations: 20
+    citations: 21
     title: Elastic and inelastic scattering of neutrinos and weakly interacting massive particles on nuclei
     year: '2020'
   e0GGlSkAAAAJ:roLk4NBRz8UC:
-    citations: 18
+    citations: 16
     title: Exotic lepton flavour violating processes in the presence of nuclei
     year: '2013'
   e0GGlSkAAAAJ:ufrVoPGSRksC:
