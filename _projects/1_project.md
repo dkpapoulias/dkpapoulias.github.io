@@ -1,7 +1,7 @@
 ---
 layout: page
 title: neutrinoSPHERE
-description: "<img src='/assets/img/EN-Funded by the EU-POS.jpg' style='height:35px;'>"
+description: "<img src='/assets/img/EN-Funded by the EU-POS.jpg' style='height:35px; width:auto; object-fit:contain;'>"
 img: assets/img/neutrinoSPHERE.png
 importance: 1
 category: work
@@ -79,10 +79,16 @@ Axial-vector neutral-current measurements in coherent elastic neutrino-nucleus s
 
 <p class="small text-muted mb-2">
 D. Aristizabal Sierra, Pablo M. Candela, Valentina De Romeri,
-Dimitrios K. Papoulias, Laura Trincado S
+Dimitrios K. Papoulias, Laura Trincado S.
 </p>
 
-<a href="https://arxiv.org/abs/2603.05281" target="_blank" class="badge bg-danger text-decoration-none">
+<a href="https://doi.org/10.1103/cc36-6r2g" target="_blank"
+   class="badge bg-primary text-decoration-none">
+Phys. Rev. D 114, 033003 (2026)
+</a>
+
+<a href="https://arxiv.org/abs/2603.05281" target="_blank"
+   class="badge bg-danger text-decoration-none">
 arXiv:2603.05281
 </a>
 
@@ -104,7 +110,12 @@ Valentina De Romeri, Dimitrios K. Papoulias,
 Federica Pompa, Gonzalo Sanchez Garcia, Christoph A. Ternes
 </p>
 
-<a href="https://arxiv.org/abs/2603.00554" target="_blank" class="badge bg-danger text-decoration-none">
+<span class="badge bg-primary">
+Accepted in JCAP
+</span>
+
+<a href="https://arxiv.org/abs/2603.00554" target="_blank"
+   class="badge bg-danger text-decoration-none">
 arXiv:2603.00554
 </a>
 
@@ -123,11 +134,69 @@ Sensitivity to sub-GeV dark matter in forthcoming spallation-source neutrino exp
 
 <p class="small text-muted mb-2">
 D. Aristizabal Sierra, Valentina De Romeri,
-Dimitrios K. Papoulias, G. Sanchez García
+Dimitrios K. Papoulias, G. Sanchez Garcia
 </p>
 
-<a href="https://arxiv.org/abs/2603.02132" target="_blank" class="badge bg-danger text-decoration-none">
+<a href="https://doi.org/10.1007/JHEP07(2026)220" target="_blank"
+   class="badge bg-primary text-decoration-none">
+JHEP 07 (2026) 220
+</a>
+
+<a href="https://arxiv.org/abs/2603.02132" target="_blank"
+   class="badge bg-danger text-decoration-none">
 arXiv:2603.02132
+</a>
+
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4 mb-4">
+<div class="card h-100 shadow-sm border-0">
+<div class="card-body">
+
+<h6 class="card-title" style="color:#1f4fbf;">
+Refined extraction of electroweak and nuclear parameters from germanium CEνNS data
+</h6>
+
+<p class="small text-muted mb-2">
+Valentina De Romeri, Laura Duque, Dimitrios K. Papoulias,
+G. Sanchez Garcia, Christoph A. Ternes
+</p>
+
+<a href="https://doi.org/10.1007/JHEP08(2026)077" target="_blank"
+   class="badge bg-primary text-decoration-none">
+JHEP 08 (2026) 077
+</a>
+
+<a href="https://arxiv.org/abs/2605.27121" target="_blank"
+   class="badge bg-danger text-decoration-none">
+arXiv:2605.27121
+</a>
+
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4 mb-4">
+<div class="card h-100 shadow-sm border-0">
+<div class="card-body">
+
+<h6 class="card-title" style="color:#1f4fbf;">
+Invisible decay of solar neutrinos at dark matter experiments
+</h6>
+
+<p class="small text-muted mb-2">
+Martina Beccaria, Veronica Beligotti, Valentina De Romeri,
+Giulia Pagliaroli, Dimitrios K. Papoulias, Federica Pompa,
+Christoph A. Ternes
+</p>
+
+<a href="https://arxiv.org/abs/2607.24584" target="_blank"
+   class="badge bg-danger text-decoration-none">
+arXiv:2607.24584
 </a>
 
 </div>
@@ -139,20 +208,41 @@ arXiv:2603.02132
 
 <!--  ADD TALKS HERE --->
 
-<div style="margin-top:2.5rem;"></div>
-
 ### 🎤 Talks
 
 <div class="list-group list-group-flush mt-3">
 
 <div class="list-group-item">
-<b>Project related talks will be listed here</b><br>
+<b>Sub-GeV Dark Matter Searches at Spallation Neutron Sources</b><br>
 <span class="text-muted small">
-coming soon...
-</span>
+Identification of Dark Matter 2026 (IDM 2026), Zaragoza, Spain — 3 June 2026
+</span><br>
+<a href="https://indico.capa.unizar.es/event/40/contributions/875/" target="_blank">
+Talk information and slides
+</a>
 </div>
 
 
+<div class="list-group-item">
+<b>Testing light and heavy vector mediators with solar CEνNS measurements</b><br>
+<span class="text-muted small">
+HEP 2026, Athens, Greece — 9 July 2026
+</span><br>
+<a href="https://indico.cern.ch/event/1654737/contributions/7165256/" target="_blank">
+Talk information and slides
+</a>
+</div>
+
+
+<div class="list-group-item">
+<b>Refined extraction of electroweak and nuclear parameters from germanium CEνNS data</b><br>
+<span class="text-muted small">
+Magnificent CEνNS 2026, Heidelberg, Germany — 15 July 2026
+</span><br>
+<a href="https://plan.events.mpg.de/event/603/contributions/3530/" target="_blank">
+Talk information and slides
+</a>
+</div>
 
 </div>
 
