@@ -9,4 +9,4 @@ New paper posted on arXiv:<br><br>
 
 **Refined extraction of electroweak and nuclear parameters from germanium CEνNS data**<br>
 Authors: Valentina De Romeri, Laura Duque, Dimitrios K. Papoulias, G. Sanchez Garcia, Christoph A. Ternes<br>
-[JHEP 08 (2026) 077](https://doi.org/10.1007/JHEP08(2026)077), [arXiv:2605.27121](https://arxiv.org/abs/2605.27121)
+[JHEP 08 (2026) 077](<https://doi.org/10.1007/JHEP08(2026)077>), [arXiv:2605.27121](https://arxiv.org/abs/2605.27121)

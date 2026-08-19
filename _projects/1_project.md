@@ -41,29 +41,26 @@ related_publications: false
 </div>
 
 <!-- Project Description -->
+
 ## About the Research Programme
->  **neutrinoSPHERE** is a research project funded by the <b>European Commission</b> for the period 2026–2028. It is supported under the <i>HORIZON Europe MSCA Postdoctoral Fellowships</i> – European Fellowships (GA 101198541) and is hosted by the research group of <a href="https://www.physik.uni-hamburg.de/iexp/gruppe-nikolopoulos.html">Prof. K. Nikolopoulos</a> at the <a href="https://www.physik.uni-hamburg.de/iexp.html">Institute of Experimental Physics</a>, as well as the Cluster of Excellence <a href="https://www.qu.uni-hamburg.de/">Quantum Universe</a> at the <a href="https://www.uni-hamburg.de/en.html">University of Hamburg</a>, Germany. 
 
-
-
-
+> **neutrinoSPHERE** is a research project funded by the <b>European Commission</b> for the period 2026–2028. It is supported under the <i>HORIZON Europe MSCA Postdoctoral Fellowships</i> – European Fellowships (GA 101198541) and is hosted by the research group of <a href="https://www.physik.uni-hamburg.de/iexp/gruppe-nikolopoulos.html">Prof. K. Nikolopoulos</a> at the <a href="https://www.physik.uni-hamburg.de/iexp.html">Institute of Experimental Physics</a>, as well as the Cluster of Excellence <a href="https://www.qu.uni-hamburg.de/">Quantum Universe</a> at the <a href="https://www.uni-hamburg.de/en.html">University of Hamburg</a>, Germany.
 
 ## Vision
+
 The neutrinoSPHERE project will advance the state of the art in modern astroparticle physics and open new directions in searches for new physics, aiming to address fundamental long-standing questions on the origin of neutrino masses and the existence of dark matter. It will exploit the ultra-low threshold capability of Spherical Proportional Counters, employed for dark matter searches by the NEWS-G Collaboration, to explore coherent elastic neutrino-nucleus scattering (CEvNS) beyond the Standard Model and dark matter-nucleus signals. To this end, neutrinoSPHERE will employ machine-learning techniques to develop new computational tools for fast and accurate signal reconstruction, incorporating systematic uncertainties.
 
 The project has a duration of 24 months and includes research visits at IFT Madrid and NTUA Athens, where I will collaborate with world-leading experts on machine-learning approaches and connections between astroparticle physics and cosmology.
-
 
 <div style="margin-top:3rem; margin-bottom:2.5rem;">
   <hr style="width:60%; margin:auto;">
 </div>
 
-## neutrinoSPHERE  Results
+## neutrinoSPHERE Results
 
 <div style="margin-bottom:2.5rem;"></div>
 
 <!--  ADD PUBLICATIONS HERE --->
-
 
 ### 📘 Publications
 
@@ -96,7 +93,6 @@ arXiv:2603.05281
 </div>
 </div>
 
-
 <div class="col-md-4 mb-4">
 <div class="card h-100 shadow-sm border-0">
 <div class="card-body">
@@ -122,7 +118,6 @@ arXiv:2603.00554
 </div>
 </div>
 </div>
-
 
 <div class="col-md-4 mb-4">
 <div class="card h-100 shadow-sm border-0">
@@ -151,7 +146,6 @@ arXiv:2603.02132
 </div>
 </div>
 
-
 <div class="col-md-4 mb-4">
 <div class="card h-100 shadow-sm border-0">
 <div class="card-body">
@@ -179,7 +173,6 @@ arXiv:2605.27121
 </div>
 </div>
 
-
 <div class="col-md-4 mb-4">
 <div class="card h-100 shadow-sm border-0">
 <div class="card-body">
@@ -205,7 +198,6 @@ arXiv:2607.24584
 
 </div>
 
-
 <!--  ADD TALKS HERE --->
 
 ### 🎤 Talks
@@ -222,7 +214,6 @@ Talk information and slides
 </a>
 </div>
 
-
 <div class="list-group-item">
 <b>Testing light and heavy vector mediators with solar CEνNS measurements</b><br>
 <span class="text-muted small">
@@ -232,7 +223,6 @@ HEP 2026, Athens, Greece — 9 July 2026
 Talk information and slides
 </a>
 </div>
-
 
 <div class="list-group-item">
 <b>Refined extraction of electroweak and nuclear parameters from germanium CEνNS data</b><br>
@@ -246,13 +236,12 @@ Talk information and slides
 
 </div>
 
-
-
 <!-- Outreach -->
 
 <div style="margin-top:2.5rem;"></div>
 
 ### 🌍 Outreach
+
 <div class="list-group list-group-flush mt-3">
 
 <div class="list-group-item">
@@ -261,8 +250,6 @@ Talk information and slides
 coming soon...
 </span>
 </div>
-
-
 
 </div>
 

@@ -3,10 +3,10 @@ cv:
   label: Postdoc Researcher | MSCA Fellow
   email: dimitrios dot papoulias at uni-hamburg dot de
   location: University of Hamburg, Germany
- # image: ""
- # summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  # image: ""
+  # summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
- #
+  #
   address:
     street: Luruper Chaussee 149
     city: Hamburg
@@ -22,7 +22,6 @@ cv:
         studyType: PhD
         start_date: 2011
         end_date: 2016
-      
 
       - institution: University of Sussex
         location: Brighton, UK
@@ -40,9 +39,7 @@ cv:
         start_date: 2006
         end_date: 2010
 
-
     Experience:
-
       - company: University of Hamburg
         position: Postdoc Researcher | MSCA Fellow
         location: Hamburg, Germany
@@ -50,7 +47,7 @@ cv:
         end_date: 2028
         highlights:
           - neutrinoSPHERE EU-project (Collab. with Prof. Nikolopoulos)
-          
+
       - company: Instituto de Física Corpuscular (CSIC/Valencia U.)
         position: Postdoc Researcher
         location: Valencia, Spain
@@ -59,7 +56,7 @@ cv:
         highlights:
           - AHEP Group (Collab. with Dr. V. De Romeri in her NeoCEvNS EU project)
 
-      - company: National and Kapodistrian University of Athens 
+      - company: National and Kapodistrian University of Athens
         position: Postdoc Researcher | H.F.R.I. (PI)
         location: Athens, Greece
         start_date: 2022
@@ -83,10 +80,7 @@ cv:
         highlights:
           - AHEP Group (Collab. with Prof. M. Tórtola, Prof. Jose W.F. Valle, PROMETEO project)
 
-
-
     Awards:
-
       - title: MSCA Fellowship
         date: 2024
         summary: Funded by the European Commission
@@ -95,17 +89,17 @@ cv:
         date: 2020
         summary: “Reinforcement of Postdoctoral Researchers - 2nd Cycle”
 
-      - title: IKY undergraduate Fellowship 
+      - title: IKY undergraduate Fellowship
         date: 2009-2010
         summary: Outstanding performance in academic year
 
-      - title: IKY undergraduate Fellowship 
+      - title: IKY undergraduate Fellowship
         date: 2008-2009
         summary: Outstanding performance in academic year
 
-      - title: IKY undergraduate Fellowship 
+      - title: IKY undergraduate Fellowship
         date: 2006-2007
-        summary: Second best admitted student in my class after the National Hellenic examinations 
+        summary: Second best admitted student in my class after the National Hellenic examinations
 
     Languages:
       - name: Greek
@@ -116,4 +110,3 @@ cv:
 
       - name: French
         summary: "Intermediate"
-        

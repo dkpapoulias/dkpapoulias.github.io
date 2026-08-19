@@ -17,4 +17,4 @@ Accepted in **JCAP**, [arXiv:2603.00554](https://arxiv.org/abs/2603.00554)<br><b
 
 **3. Sensitivity to sub-GeV dark matter in forthcoming spallation-source neutrino experiments**<br>
 Authors: D. Aristizabal Sierra, Valentina De Romeri, Dimitrios K. Papoulias, G. Sanchez Garcia<br>
-[JHEP 07 (2026) 220](https://doi.org/10.1007/JHEP07(2026)220), [arXiv:2603.02132](https://arxiv.org/abs/2603.02132)
+[JHEP 07 (2026) 220](<https://doi.org/10.1007/JHEP07(2026)220>), [arXiv:2603.02132](https://arxiv.org/abs/2603.02132)
