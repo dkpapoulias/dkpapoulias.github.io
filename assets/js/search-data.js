@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-research",
+          title: "Research",
+          description: "Research interests and selected contributions",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
         },{id: "nav-neutrinosphere-eu-project",
           title: "neutrinoSPHERE (EU project)",
           description: "",
