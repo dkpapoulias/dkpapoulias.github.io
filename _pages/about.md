@@ -20,23 +20,25 @@ subtitle: >
     const observer = new MutationObserver(updateLogo);
     observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
   </script>
+
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
 
-social: false # includes social icons at the bottom of the page
-#selected_papers: true # includes a list of papers marked as "selected={true}"
+social: false
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 ---
 
-I am a theoretical astroparticle physicist, working as a Marie Skłodowska Curie Fellow at the University of Hamburg in the group of [Prof. K. Nikolopoulos](https://www.physik.uni-hamburg.de/>iexp/gruppe-nikolopoulos.html).
+I am a theoretical astroparticle physicist and **Marie Skłodowska-Curie Fellow** at the University of Hamburg, working in the group of [Prof. K. Nikolopoulos](https://www.physik.uni-hamburg.de/iexp/gruppe-nikolopoulos.html).
 
-Previously, I held several postdoc positions in Spain and Greece. For details, see my [Curriculum Vitae](/cv/).
+My research lies at the interface of **neutrino physics, dark matter, and nuclear theory**, with a particular focus on low-energy probes of fundamental physics. My work spans coherent elastic neutrino–nucleus scattering (CEνNS), dark matter direct detection and the neutrino fog, neutrino properties and interactions beyond the Standard Model, light dark sectors and axion-like particles (ALPs), and nuclear structure for neutrino and dark matter searches.
 
-> My research focuses on astroparticle physics phenomenology, exploring the connections between particle physics, astrophysics, and cosmology. In particular, I work on the theoretical interpretation of experimental and observational probes of fundamental physics, with attention to effects that are relevant for precision studies of rare processes and low-energy signals. More recently, my research has expanded to broader aspects of neutrino physics, with the aim of probing exotic neutrino interactions with matter, Dark Matter, and axion-like particles (ALPs). My work combines phenomenological studies with constraints from laboratory experiments as well as astrophysical and cosmological observations.
+[**Explore my research →**](/research/)
+
+Previously, I held postdoctoral positions in Spain and Greece. For further details on my academic background, see my [Curriculum Vitae](/cv/).
