@@ -128,7 +128,7 @@ JCAP 05 (2025) 080
 M. Beccaria, V. Beligotti, V. De Romeri, G. Pagliaroli,
 D. K. Papoulias, F. Pompa, C. A. Ternes,
 <a href="https://arxiv.org/abs/2607.24584" target="_blank">
-arXiv:2607.24584
+JCAP, accepted (2026)
 </a>
 
 </p>

@@ -50,7 +50,7 @@ related_publications: false
 
 The neutrinoSPHERE project will advance the state of the art in modern astroparticle physics and open new directions in searches for new physics, aiming to address fundamental long-standing questions on the origin of neutrino masses and the existence of dark matter. It will exploit the ultra-low threshold capability of Spherical Proportional Counters, employed for dark matter searches by the NEWS-G Collaboration, to explore coherent elastic neutrino-nucleus scattering (CEvNS) beyond the Standard Model and dark matter-nucleus signals. To this end, neutrinoSPHERE will employ machine-learning techniques to develop new computational tools for fast and accurate signal reconstruction, incorporating systematic uncertainties.
 
-The project has a duration of 24 months and includes research visits at IFT Madrid and NTUA Athens, where I will collaborate with world-leading experts on machine-learning approaches and connections between astroparticle physics and cosmology.
+The project has a duration of 24 months and includes **research visits to IFT-UAM/CSIC in Madrid and NTUA Athens**, where I will collaborate with **Prof. David G. Cerdeño** and **Prof. Chris Kouvaris**, respectively. These exchanges will strengthen the project through complementary expertise in dark matter and neutrino phenomenology, machine-learning approaches, and connections between astroparticle physics and cosmology.
 
 <div style="margin-top:3rem; margin-bottom:2.5rem;">
   <hr style="width:60%; margin:auto;">
@@ -258,10 +258,48 @@ Federica Pompa, Christoph A. Ternes
       Solar-neutrino signals in dark matter detectors provide a new way to search for invisible neutrino decay. The first CEνNS-based constraint, obtained from XENONnT, PandaX-4T and LZ, is already competitive with dedicated solar-neutrino measurements, while future xenon experiments could improve existing limits by up to two orders of magnitude through low-energy neutrino–electron scattering.
     </p>
 
+    <span class="badge bg-primary me-1">
+     Accepted in JCAP
+    </span>
+
     <a href="https://arxiv.org/abs/2607.24584"
        target="_blank"
        class="badge bg-danger text-decoration-none">
       arXiv:2607.24584
+    </a>
+
+  </div>
+</div>
+
+<!-- Paper 6 -->
+<div class="mb-4">
+
+<h5>
+Can elastic neutrino scattering account for the LZ230616 event?
+</h5>
+
+<p class="small text-muted">
+Ayan Chattaraj, Anirban Majumdar,
+Dimitrios K. Papoulias, Rahul Srivastava
+</p>
+
+<div class="row align-items-center mt-3">
+  <div class="col-md-4 mb-3 mb-md-0 text-center">
+    <img src="/assets/img/neutrinoSPHERE/LZpaper.png"
+         alt="Elastic neutrino interpretation of the LZ230616 event"
+         class="img-fluid"
+         style="max-height: 220px; width: auto;">
+  </div>
+
+  <div class="col-md-8">
+    <p>
+      Elastic neutrino–xenon scattering cannot explain the isolated LZ230616 high-energy nuclear-recoil event. Standard astrophysical neutrinos, light scalar and vector mediators, neutrinos from dark matter annihilation or decay, and neutrinos from primordial-black-hole evaporation all either fail kinematically or require normalizations that would strongly overproduce lower-energy recoils. Existing constraints independently exclude the required parameter regions.
+    </p>
+
+    <a href="https://arxiv.org/abs/2609.10504"
+       target="_blank"
+       class="badge bg-danger text-decoration-none">
+      arXiv:2609.10504
     </a>
 
   </div>
