@@ -140,9 +140,11 @@ Federica Pompa, Gonzalo Sanchez Garcia, Christoph A. Ternes
       The first solar CEνNS measurements from XENONnT, PandaX-4T and LZ provide a new probe of vector interactions beyond the Standard Model. Their combination constrains both effective non-standard interactions and light-mediator scenarios, reaching sensitivity competitive with dedicated neutrino-scattering experiments in parts of the parameter space.
     </p>
 
-    <span class="badge bg-primary me-1">
-      Accepted in JCAP
-    </span>
+    <a href="https://doi.org/10.1088/1475-7516/2026/10/012"
+      target="_blank"
+      class="badge bg-primary text-decoration-none me-1">
+      JCAP 10 (2026) 012
+    </a>
 
     <a href="https://arxiv.org/abs/2603.00554"
        target="_blank"
@@ -277,9 +279,11 @@ Federica Pompa, Christoph A. Ternes
       Solar-neutrino signals in dark matter detectors provide a new way to search for invisible neutrino decay. The first CEνNS-based constraint, obtained from XENONnT, PandaX-4T and LZ, is already competitive with dedicated solar-neutrino measurements, while future xenon experiments could improve existing limits by up to two orders of magnitude through low-energy neutrino–electron scattering.
     </p>
 
-    <span class="badge bg-primary me-1">
-      Accepted in JCAP
-    </span>
+    <a href="https://doi.org/10.1088/1475-7516/2026/10/025"
+      target="_blank"
+      class="badge bg-primary text-decoration-none me-1">
+      JCAP 10 (2026) 025
+    </a>
 
     <a href="https://arxiv.org/abs/2607.24584"
        target="_blank"

@@ -41,8 +41,8 @@ PRD 111 (2025) 075025
 </a><br>
 
 V. De Romeri, D. K. Papoulias, F. Pompa, G. Sanchez Garcia, C. A. Ternes,
-<a href="https://arxiv.org/abs/2603.00554" target="_blank">
-arXiv:2603.00554
+<a href="https://doi.org/10.1088/1475-7516/2026/10/012" target="_blank">
+JCAP 10 (2026) 012
 </a>
 
 </p>
@@ -81,8 +81,8 @@ JCAP 05 (2026) 093
 </a><br>
 
 D. Aristizabal Sierra, V. De Romeri, D. K. Papoulias, G. Sanchez Garcia,
-<a href="https://arxiv.org/abs/2603.02132" target="_blank">
-arXiv:2603.02132
+<a href="https://doi.org/10.1007/JHEP07(2026)220" target="_blank">
+JHEP 07 (2026) 220
 </a>
 
 </p>
@@ -127,8 +127,8 @@ JCAP 05 (2025) 080
 
 M. Beccaria, V. Beligotti, V. De Romeri, G. Pagliaroli,
 D. K. Papoulias, F. Pompa, C. A. Ternes,
-<a href="https://arxiv.org/abs/2607.24584" target="_blank">
-JCAP, accepted (2026)
+<a href="https://doi.org/10.1088/1475-7516/2026/10/025" target="_blank">
+JCAP 10 (2026) 025
 </a>
 
 </p>

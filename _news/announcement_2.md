@@ -13,7 +13,7 @@ Authors: D. Aristizabal Sierra, Pablo M. Candela, Valentina De Romeri, Dimitrios
 
 **2. Testing light and heavy vector mediators with solar CEνNS measurements**<br>
 Authors: Valentina De Romeri, Dimitrios K. Papoulias, Federica Pompa, Gonzalo Sanchez Garcia, Christoph A. Ternes<br>
-Accepted in **JCAP**, [arXiv:2603.00554](https://arxiv.org/abs/2603.00554)<br><br>
+[JCAP 10 (2026) 012](https://doi.org/10.1088/1475-7516/2026/10/012), [arXiv:2603.00554](https://arxiv.org/abs/2603.00554)<br><br>
 
 **3. Sensitivity to sub-GeV dark matter in forthcoming spallation-source neutrino experiments**<br>
 Authors: D. Aristizabal Sierra, Valentina De Romeri, Dimitrios K. Papoulias, G. Sanchez Garcia<br>

@@ -17,5 +17,4 @@ Magnificent CEνNS 2026, Heidelberg, Germany<br>
 
 **Invisible decay of solar neutrinos at dark matter experiments**<br>
 Authors: Martina Beccaria, Veronica Beligotti, Valentina De Romeri, Giulia Pagliaroli, Dimitrios K. Papoulias, Federica Pompa, Christoph A. Ternes<br>
-**Accepted for publication in JCAP**<br>
-[arXiv:2607.24584](https://arxiv.org/abs/2607.24584)
+[JCAP 10 (2026) 025](https://doi.org/10.1088/1475-7516/2026/10/025), [arXiv:2607.24584](https://arxiv.org/abs/2607.24584)
