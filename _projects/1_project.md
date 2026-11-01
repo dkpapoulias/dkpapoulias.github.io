@@ -60,9 +60,6 @@ The project has a duration of 24 months and includes **research visits to IFT-UA
 
 <div style="margin-bottom:2.5rem;"></div>
 
-
-
-
 <!--  ADD PUBLICATIONS HERE --->
 
 ### 📘 Publications
@@ -106,11 +103,11 @@ Dimitrios K. Papoulias, Laura Trincado S.
        class="badge bg-danger text-decoration-none">
       arXiv:2603.05281
     </a>
+
   </div>
 
 </div>
 </div>
-
 
 <!-- Paper 2 -->
 <div class="mb-5 pb-4 border-bottom">
@@ -149,11 +146,11 @@ Federica Pompa, Gonzalo Sanchez Garcia, Christoph A. Ternes
        class="badge bg-danger text-decoration-none">
       arXiv:2603.00554
     </a>
+
   </div>
 
 </div>
 </div>
-
 
 <!-- Paper 3 -->
 <div class="mb-5 pb-4 border-bottom">
@@ -192,11 +189,11 @@ Dimitrios K. Papoulias, G. Sanchez García
        class="badge bg-danger text-decoration-none">
       arXiv:2603.02132
     </a>
+
   </div>
 
 </div>
 </div>
-
 
 <!-- Paper 4 -->
 <div class="mb-5 pb-4 border-bottom">
@@ -235,11 +232,11 @@ G. Sanchez Garcia, Christoph A. Ternes
        class="badge bg-danger text-decoration-none">
       arXiv:2605.27121
     </a>
+
   </div>
 
 </div>
 </div>
-
 
 <!-- Paper 5 -->
 <div class="mb-5 pb-4 border-bottom">
@@ -279,11 +276,11 @@ Federica Pompa, Christoph A. Ternes
        class="badge bg-danger text-decoration-none">
       arXiv:2607.24584
     </a>
+
   </div>
 
 </div>
 </div>
-
 
 <!-- Paper 6 -->
 <div class="mb-5 pb-4 border-bottom">
@@ -316,11 +313,11 @@ Dimitrios K. Papoulias, Rahul Srivastava
        class="badge bg-danger text-decoration-none">
       arXiv:2609.10504
     </a>
+
   </div>
 
 </div>
 </div>
-
 
 <!-- Paper 7 -->
 <div class="mb-5 pb-4 border-bottom">
@@ -364,11 +361,11 @@ Dimitrios K. Papoulias, I. M. Shoemaker
        class="badge bg-danger text-decoration-none">
       arXiv:2610.32747
     </a>
+
   </div>
 
 </div>
 </div>
-
 
 <!-- Paper 8 -->
 <div class="mb-4">
@@ -412,14 +409,13 @@ Federica Pompa, Christoph A. Ternes
        class="badge bg-danger text-decoration-none">
       arXiv:2610.38734
     </a>
+
   </div>
 
 </div>
 </div>
 
 </div>
-
-
 
 <!--  ADD TALKS HERE --->
 
