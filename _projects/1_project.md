@@ -60,6 +60,9 @@ The project has a duration of 24 months and includes **research visits to IFT-UA
 
 <div style="margin-bottom:2.5rem;"></div>
 
+
+
+
 <!--  ADD PUBLICATIONS HERE --->
 
 ### 📘 Publications
@@ -67,7 +70,6 @@ The project has a duration of 24 months and includes **research visits to IFT-UA
 <div class="mt-4">
 
 <!-- Paper 1 -->
-
 <div class="mb-5 pb-4 border-bottom">
 
 <h5>
@@ -89,7 +91,6 @@ Dimitrios K. Papoulias, Laura Trincado S.
   </div>
 
   <div class="col-md-8">
-
     <p>
       The usually subleading axial-vector contribution to CEνNS becomes experimentally accessible with suitable spinful targets. Fluorine-based detectors, particularly C₃F₈, offer especially strong sensitivity, with future reactor and spallation-source measurements potentially determining the axial coupling \(g_A\) at the \(\mathcal{O}(10\%)\) level under favorable threshold and flux uncertainties.
     </p>
@@ -105,15 +106,13 @@ Dimitrios K. Papoulias, Laura Trincado S.
        class="badge bg-danger text-decoration-none">
       arXiv:2603.05281
     </a>
-
   </div>
 
 </div>
-
 </div>
 
-<!-- Paper 2 -->
 
+<!-- Paper 2 -->
 <div class="mb-5 pb-4 border-bottom">
 
 <h5>
@@ -135,14 +134,13 @@ Federica Pompa, Gonzalo Sanchez Garcia, Christoph A. Ternes
   </div>
 
   <div class="col-md-8">
-
     <p>
       The first solar CEνNS measurements from XENONnT, PandaX-4T and LZ provide a new probe of vector interactions beyond the Standard Model. Their combination constrains both effective non-standard interactions and light-mediator scenarios, reaching sensitivity competitive with dedicated neutrino-scattering experiments in parts of the parameter space.
     </p>
 
     <a href="https://doi.org/10.1088/1475-7516/2026/10/012"
-      target="_blank"
-      class="badge bg-primary text-decoration-none me-1">
+       target="_blank"
+       class="badge bg-primary text-decoration-none me-1">
       JCAP 10 (2026) 012
     </a>
 
@@ -151,15 +149,13 @@ Federica Pompa, Gonzalo Sanchez Garcia, Christoph A. Ternes
        class="badge bg-danger text-decoration-none">
       arXiv:2603.00554
     </a>
-
   </div>
 
 </div>
-
 </div>
 
-<!-- Paper 3 -->
 
+<!-- Paper 3 -->
 <div class="mb-5 pb-4 border-bottom">
 
 <h5>
@@ -181,7 +177,6 @@ Dimitrios K. Papoulias, G. Sanchez García
   </div>
 
   <div class="col-md-8">
-
     <p>
       Forthcoming CEνNS experiments at ESS, J-PARC and CSNS can simultaneously serve as sensitive searches for sub-GeV dark matter produced at spallation sources. Detailed production and detector simulations reveal previously unexplored parameter space, with several experimental configurations reaching the thermal-relic target in the tens-of-MeV mass range.
     </p>
@@ -197,15 +192,13 @@ Dimitrios K. Papoulias, G. Sanchez García
        class="badge bg-danger text-decoration-none">
       arXiv:2603.02132
     </a>
-
   </div>
 
 </div>
-
 </div>
 
-<!-- Paper 4 -->
 
+<!-- Paper 4 -->
 <div class="mb-5 pb-4 border-bottom">
 
 <h5>
@@ -227,7 +220,6 @@ G. Sanchez Garcia, Christoph A. Ternes
   </div>
 
   <div class="col-md-8">
-
     <p>
       The complementary neutrino energies of COHERENT-Ge and CONUS+ allow nuclear, electroweak and detector-response effects to be disentangled in a joint analysis. Their combination improves the extraction of the germanium neutron radius and neutron skin while simultaneously providing information on the weak mixing angle and nuclear quenching response.
     </p>
@@ -243,15 +235,13 @@ G. Sanchez Garcia, Christoph A. Ternes
        class="badge bg-danger text-decoration-none">
       arXiv:2605.27121
     </a>
-
   </div>
 
 </div>
-
 </div>
 
-<!-- Paper 5 -->
 
+<!-- Paper 5 -->
 <div class="mb-5 pb-4 border-bottom">
 
 <h5>
@@ -274,14 +264,13 @@ Federica Pompa, Christoph A. Ternes
   </div>
 
   <div class="col-md-8">
-
     <p>
       Solar-neutrino signals in dark matter detectors provide a new way to search for invisible neutrino decay. The first CEνNS-based constraint, obtained from XENONnT, PandaX-4T and LZ, is already competitive with dedicated solar-neutrino measurements, while future xenon experiments could improve existing limits by up to two orders of magnitude through low-energy neutrino–electron scattering.
     </p>
 
     <a href="https://doi.org/10.1088/1475-7516/2026/10/025"
-      target="_blank"
-      class="badge bg-primary text-decoration-none me-1">
+       target="_blank"
+       class="badge bg-primary text-decoration-none me-1">
       JCAP 10 (2026) 025
     </a>
 
@@ -290,16 +279,14 @@ Federica Pompa, Christoph A. Ternes
        class="badge bg-danger text-decoration-none">
       arXiv:2607.24584
     </a>
-
   </div>
 
 </div>
-
 </div>
 
-<!-- Paper 6 -->
 
-<div class="mb-4">
+<!-- Paper 6 -->
+<div class="mb-5 pb-4 border-bottom">
 
 <h5>
 Can elastic neutrino scattering account for the LZ230616 event?
@@ -320,7 +307,6 @@ Dimitrios K. Papoulias, Rahul Srivastava
   </div>
 
   <div class="col-md-8">
-
     <p>
       Elastic neutrino–xenon scattering cannot explain the isolated LZ230616 high-energy nuclear-recoil event. Standard astrophysical neutrinos, light scalar and vector mediators, neutrinos from dark matter annihilation or decay, and neutrinos from primordial-black-hole evaporation all either fail kinematically or require normalizations that would strongly overproduce lower-energy recoils. Existing constraints independently exclude the required parameter regions.
     </p>
@@ -330,11 +316,105 @@ Dimitrios K. Papoulias, Rahul Srivastava
        class="badge bg-danger text-decoration-none">
       arXiv:2609.10504
     </a>
-
   </div>
 
 </div>
+</div>
 
+
+<!-- Paper 7 -->
+<div class="mb-5 pb-4 border-bottom">
+
+<h5>
+Heavy Sterile Fermions from the Atmosphere:
+LZ Limits on Neutrino Up-Scattering
+</h5>
+
+<p class="small text-muted">
+D. Aristizabal Sierra, Valentina De Romeri,
+Dimitrios K. Papoulias, I. M. Shoemaker
+</p>
+
+<div class="row align-items-center mt-3">
+
+  <div class="col-md-4 mb-3 mb-md-0 text-center">
+    <img src="/assets/img/neutrinoSPHERE/LZ_atm_EFT_KN_ShellModel.png"
+         alt="Atmospheric neutrino up-scattering at LZ: KN versus Shell Model"
+         class="img-fluid"
+         style="max-height: 220px; width: auto;">
+  </div>
+
+  <div class="col-md-8">
+    <p>
+      The extended nuclear-recoil dataset from LZ provides
+      new constraints on atmospheric-neutrino up-scattering
+      into heavy sterile fermions. We investigate vector,
+      axial-vector, scalar and dipole interactions, deriving
+      competitive bounds for sterile fermion masses above
+      approximately 50 MeV. We also examine whether these
+      interactions can account for the isolated 248 keV
+      nuclear-recoil event. Although certain scenarios can
+      approach the required event rate, the corresponding
+      couplings are at the edge of perturbativity or fail
+      to provide a satisfactory fit.
+    </p>
+
+    <a href="https://arxiv.org/abs/2610.32747"
+       target="_blank"
+       class="badge bg-danger text-decoration-none">
+      arXiv:2610.32747
+    </a>
+  </div>
+
+</div>
+</div>
+
+
+<!-- Paper 8 -->
+<div class="mb-4">
+
+<h5>
+Neutrino electromagnetic properties after the first
+<i>pp</i> solar neutrino observation at XENONnT
+</h5>
+
+<p class="small text-muted">
+Valentina De Romeri, Dimitrios K. Papoulias,
+Federica Pompa, Christoph A. Ternes
+</p>
+
+<div class="row align-items-center mt-3">
+
+  <div class="col-md-4 mb-3 mb-md-0 text-center">
+    <img src="/assets/img/neutrinoSPHERE/XENONnT_pp_flux.png"
+         alt="Solar pp neutrino flux measurements and XENONnT results"
+         class="img-fluid"
+         style="max-height: 220px; width: auto;">
+  </div>
+
+  <div class="col-md-8">
+    <p>
+      The first observation of solar pp neutrinos through
+      elastic neutrino-electron scattering at XENONnT
+      opens new opportunities for precision neutrino physics
+      at dark matter detectors. We analyze the electron-recoil
+      data to determine the pp neutrino flux normalization
+      and the weak mixing angle at low momentum transfer.
+      We also derive constraints on neutrino charge radii,
+      magnetic moments, millicharges and the sterile-neutrino
+      dipole portal. Particular attention is given to the
+      impact of the carbon-14 background on the extracted
+      parameters and the mild excess in the pp neutrino flux.
+    </p>
+
+    <a href="https://arxiv.org/abs/2610.38734"
+       target="_blank"
+       class="badge bg-danger text-decoration-none">
+      arXiv:2610.38734
+    </a>
+  </div>
+
+</div>
 </div>
 
 </div>
