@@ -23,7 +23,7 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic_2026.png
   image_circular: false
   more_info: >
 
